@@ -1,0 +1,31 @@
+<div class="tituloListas">
+  <h1>Nova Passagem</h1>
+</div>
+<form>
+  <mat-card>
+
+    <mat-card-content>
+      <mat-form-field>
+        <input matInput type="text" placeholder="Origem" name="origem" [(ngModel)]="produto.origem">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" placeholder="Destino" name="destino" [(ngModel)]="produto.destino">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="date" placeholder="Data" name="data" [(ngModel)]="produto.data">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="number" placeholder="Preço" name="preco" [(ngModel)]="produto.preco">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="number" placeholder="Taxa" name="taxas" [(ngModel)]="produto.taxas">
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button class="btnMyFood" (click)="salvarProduto()" color="primary">Salvar</button>
+      <button mat-raised-button class="btnMyFood" routerLink="/admin/passagens">Cancelar</button>
+    </mat-card-actions>
+
+  </mat-card>
+</form>

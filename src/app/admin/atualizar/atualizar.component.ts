@@ -1,0 +1,36 @@
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Produto } from 'src/models/produto.model';
+import { CadastroService } from 'src/cadastro.service';
+
+
+@Component({
+  selector: 'app-atualizar',
+  templateUrl: './atualizar.component.html',
+  styleUrls: ['./atualizar.component.css']
+})
+export class AtualizarComponent implements OnInit {
+
+  produto: Produto = new Produto();
+
+  constructor(private cadastro: CadastroService,
+    private router: Router,
+    private activatedRoute: ActivatedRoute) { }
+
+  ngOnInit(): void {
+
+    const id = this.activatedRoute.snapshot.paramMap.get('id');
+    this.cadastro.buscarPorId(Number(id)).subscribe(produto => {
+      this.produto = produto;
+    });
+
+  }
+
+  atualizar() {
+    this.cadastro.atualizar(this.produto.id, this.produto).subscribe(() => {
+      this.router.navigate(['/admin/passagens']);
+    });
+  }
+
+}
+
