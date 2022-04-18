@@ -26,6 +26,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import { HttpClientModule } from "@angular/common/http";
 import { PesquisaComponent } from './pesquisa/pesquisa.component';
@@ -57,6 +58,7 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
     MatTableModule,
     MatIconModule,
     MatCardModule,
+    MatButtonToggleModule,
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,

@@ -1,11 +1,14 @@
 <body>
   <div class="head-container">
     <div class="passagem-1">
-      
       <h2><mat-icon class="icone-aviao">flight_takeoff</mat-icon>Passagens Aéreas</h2>
         <div class="botao-dir">
-            <p class="ida-volta">Ida e volta</p>
-            <p class="ida">Somente ida</p>
+            <p class="botao-escolha">
+                <mat-button-toggle-group class="botao-total" name="fontStyle" aria-label="Font Style">
+                  <mat-button-toggle class="botao-idavolta" value="IdaeVolta">Ida e Volta</mat-button-toggle>
+                  <mat-button-toggle class="botao-ida" value="Ida">Somente Ida</mat-button-toggle>
+                </mat-button-toggle-group>
+            </p>
         </div>
     </div>
     <div class="passagem-2">  

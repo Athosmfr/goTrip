@@ -45,6 +45,29 @@ h2 {
   margin: 0 40px;
 }
 
+.botao-escolha {
+  position: relative;
+  top: 15px;
+}
+
+.botao-total {
+  border-radius: 50px;
+}
+
+.botao-ida {
+  font-size: 14px;
+  font-style: italic;
+  align-self: center;
+  font-weight: 500;
+}
+
+.botao-idavolta {
+  font-size: 14px;
+  font-style: italic;
+  align-self: center;
+  font-weight: 500;
+}
+
 .ida-volta {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
