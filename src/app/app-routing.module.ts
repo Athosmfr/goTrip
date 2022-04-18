@@ -7,6 +7,7 @@ import { ListarComponent } from './admin/listar/listar.component';
 import { IncluirComponent } from './admin/incluir/incluir.component';
 import { AtualizarComponent } from './admin/atualizar/atualizar.component';
 import { ExcluirComponent } from './admin/excluir/excluir.component';
+import { PesquisaComponent } from './pesquisa/pesquisa.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,7 +20,8 @@ const routes: Routes = [
       { path: "passagens/excluir/:id", component: ExcluirComponent }
     ]
   },
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'pesquisa', component: PesquisaComponent }
 
 ];
 

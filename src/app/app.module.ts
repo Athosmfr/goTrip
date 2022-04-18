@@ -28,6 +28,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 
 import { HttpClientModule } from "@angular/common/http";
+import { PesquisaComponent } from './pesquisa/pesquisa.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { HttpClientModule } from "@angular/common/http";
     AtualizarComponent,
     ListarComponent,
     ExcluirComponent,
-    IncluirComponent
+    IncluirComponent,
+    PesquisaComponent
   ],
   imports: [
     MatDatepickerModule,
