@@ -61,6 +61,14 @@ h2 {
   font-weight: 500;
 }
 
+.botao-ida-default {
+  background-color: white;
+}
+
+.botao-ida-click {
+  background-color: rgb(160, 160, 160);
+}
+
 .botao-idavolta {
   font-size: 14px;
   font-style: italic;

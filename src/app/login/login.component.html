@@ -12,9 +12,9 @@
             </div>
             <p class="titulo-login">Senha</p>
             <div class="example-container">
-                <mat-form-field>
+                <mat-form-field >
                   <mat-label>Insira sua senha</mat-label>
-                  <input class="login-input" matInput [type]="hide ? 'password' : 'text'">
+                  <input  class="login-input" matInput [type]="hide ? 'password' : 'text'" required>
                   <button class="botao-olho" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
                     <mat-icon class="icone-olho">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
                   </button>

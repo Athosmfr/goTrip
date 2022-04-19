@@ -94,3 +94,21 @@
 .login-input {
     color: white;
 }
+
+/* .mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: rgb(255, 255, 255)!important
+    
+    ;
+body > app-root > app-login > div > div > div.form-login > div.example-container > mat-form-field > div >
+} */
+
+div.mat-form-field-underline {
+    background-color: white!important;
+}
+
+.mat-form-field-wrapper:nth-child(1) {
+    background-color: rgb(235, 255, 57);
+}
+
+/* body > material-docs-app > guide-viewer > div.docs-guide-wrapper > div > table-of-contents > div > nav > a:nth-child(6) */
+
