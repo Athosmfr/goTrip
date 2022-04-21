@@ -69,6 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .atributos-teste {
@@ -109,4 +110,143 @@ body {
   font-size: 16px;
   font-weight: 500;
   text-align: justify;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-container__covid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 10%;
+}
+
+.foto-mascara {
+  width: 400px;
+}
+
+.caixa-texto__covid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.titulo-covid {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.texto-covid {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  align-self: flex-end;
+}
+
+.info-container__bagagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 10%;
+}
+
+.caixa-texto__bagagem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.titulo-bagagem {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.texto-bagagem {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  align-self: flex-end;
+}
+
+.botao-mais {
+  align-self: flex-start;
+}
+
+.link-mais {
+  text-decoration: none;
+  color: black;
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 7px;
+}
+
+.teste-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(14, 125, 150);
+  padding-bottom: 20px;
+  margin-top: 60px;
+}
+
+.container-news {
+  margin: 20px 0;
+}
+
+.titulo-news {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cadastro-news {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-nome {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  width: fit-content;
+  height: 30px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.input-email {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  width: fit-content;
+  height: 30px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.botao-enviar {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(14, 125, 150);
+  font-size: 16px;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 0 20px;
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+  cursor: pointer;
 }

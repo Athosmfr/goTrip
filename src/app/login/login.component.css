@@ -12,7 +12,7 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 60px;
-    background: rgb(10, 88, 105);
+    background: rgb(0, 125, 156);
     padding: 20px 0;
     width: 400px;
     border-radius: 20px;
@@ -44,12 +44,12 @@
 }
 
 .botao-olho {
-    background: rgb(10, 88, 105);
+    background: rgb(0, 125, 156);
     border: none;
 }
 
 .icone-olho {
-    background: rgb(10, 88, 105);
+    background: rgb(0, 125, 156);
 }
 
 .botao-login {
@@ -103,7 +103,7 @@ body > app-root > app-login > div > div > div.form-login > div.example-container
 } */
 
 div.mat-form-field-underline {
-    background-color: white!important;
+    background-color: white !important;
 }
 
 .mat-form-field-wrapper:nth-child(1) {
@@ -111,4 +111,3 @@ div.mat-form-field-underline {
 }
 
 /* body > material-docs-app > guide-viewer > div.docs-guide-wrapper > div > table-of-contents > div > nav > a:nth-child(6) */
-
